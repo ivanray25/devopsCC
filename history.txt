@@ -1,0 +1,45 @@
+
+  125  mkdir docker-flask-app
+  126  ls
+  127  cd docker-flask-app
+  128  sudo mkdir docker-flask-app
+  129  cd docker-flask-app
+  130  touch Dockerfile
+  131  sudo touch Dockerfile
+  132  sudo nano dockerfile
+  133  rm Dockerfile
+  134  sude rm Dockerfile
+  135  sudo rm Dockerfile
+  136  sudo rm dockerfile
+  137  sudo nano Dockerfile
+  138  sudo nano app.py
+  139  sudo nano requirements.txt
+  140  sudo docker build -t carl-Stephane-flask-app .
+  141  sudo docker build -t docker-flask-app .
+  142  sudo docker images
+  143  sudo docker run -d -p 5000:5000 docker-flask-app
+  144  sudo docker ps
+  145  sudo nano app.py
+  146  sudo docker run -d -p 5000:5000 docker-flask-app
+  147  sudo docker build -t docker-flask-app .
+  148  sudo docker run -d -p 5000:5000 docker-flask-app
+  149  sudo docker ps
+  150  sudo docker stop 5f9fcba524f1
+  151  sudo docker stop 556c5c816dee
+  152  sudo docker run -d -p 5000:5000 docker-flask-app
+  153  docker login
+  155  sudo docker ps
+  172  docker logout
+  173  docker login
+  174  sudo nano app.py
+  175  sudo docker build -t docker-flask-app .
+  176  sudo docker run -d -p 5000:5000 docker-flask-app
+  177  docker ps
+  178  sudo docker images
+  179  docker tag a4849b466168 ivanray/docker-flask-app:latest
+  180  docker push ivanray/docker-flask-app:latest
+  181  Get-History | Out-File -FilePath history.txt
+  182  history > history.txt
+  183  sudo history > history.txt
+  184  sudo bash -c "history > /home/mopao/devops_keyce/docker-flask-app/history.txt"
+  185  history
